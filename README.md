@@ -91,19 +91,19 @@ pgbadger -V
 + instalando o AWSClin ```apt-get install awscli -y ``` escolha a região 2 fuso 135.
 + Configurando  o AWSClin.
     + Acesse a console da AWS, no canto direito na credencial com seu login clique em <b>Credencial de segurança</b>
-![image](https://github.com/maxabelardo/Artigos/blob/main/imagens/Credenciais%20de%20seguran%C3%A7a%20_%20IAM.png?raw=true)</p>
+![image](https://github.com/j-a-vicente/powershell_fileserver_powerbi/blob/main/imagens/Credenciais%20de%20seguran%C3%A7a%20_%20IAM.png?raw=true)</p>
 
     + Criar chave de acesso.
-![image](https://github.com/maxabelardo/Artigos/blob/main/imagens/Criar_chave_de_acesso.png?raw=true)</p>    
+![image](https://github.com/j-a-vicente/powershell_fileserver_powerbi/blob/main/imagens/Criar_chave_de_acesso.png?raw=true)</p>    
 
     + Escolha a opção Command line interface cli.
-![image](https://github.com/maxabelardo/Artigos/blob/main/imagens/Command_line_interface_cli.png?raw=true)</p>    
+![image](https://github.com/j-a-vicente/powershell_fileserver_powerbi/blob/main/imagens/Command_line_interface_cli.png?raw=true)</p>    
 
     + Digite a justificativa para criação da credencial.
-![image](https://github.com/maxabelardo/Artigos/blob/main/imagens/Criando_chave_de_acesso.png?raw=true)</p>        
+![image](https://github.com/j-a-vicente/powershell_fileserver_powerbi/blob/main/imagens/Criando_chave_de_acesso.png?raw=true)</p>        
 
     + Copie os valores "Chave de acesso" e "Chave de acesso secreta"
-![image](https://github.com/maxabelardo/Artigos/blob/main/imagens/Chave.png?raw=true)</p>            
+![image](https://github.com/j-a-vicente/powershell_fileserver_powerbi/blob/main/imagens/Chave.png?raw=true)</p>            
 
 + No container  digite o comando ```aws configure ```
     + AWS Access Key ID [None]: Digite a chave de acesso 
